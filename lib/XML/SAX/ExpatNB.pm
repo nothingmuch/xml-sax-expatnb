@@ -109,7 +109,8 @@ as an option.
 
 =item parse_once FH [ BYTES ]
 
-Reads BYTES bytes from FH (defaults to 4096), and parse them, without blocking.
+Reads up to BYTES bytes from FH (defaults to 4096), and parse them, without
+blocking.
 
 =back
 
